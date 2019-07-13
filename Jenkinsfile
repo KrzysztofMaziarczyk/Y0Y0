@@ -5,7 +5,7 @@ pipeline {
         stage("Print"){
             steps {
                 script {
-                    sh 'echo 123'
+                    sh "echo 123"
                 }
             }
         }
